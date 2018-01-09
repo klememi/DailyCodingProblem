@@ -41,3 +41,26 @@ Given an array of integers, find the first missing positive integer in linear ti
 For example, the input ``[3, 4, -1, 1]`` should give ``2``. The input ``[1, 2, 0]`` should give ``3``.
 
 You can modify the input array in-place.
+
+005 `Return lambda arguments <https://github.com/klememi/DailyCodingProblem/blob/master/problems/005_ReturnLambdaArguments.swift>`_
+----------------------------------------------------------------------------------------------------------------------------------------
+
+*This problem was asked by Jane Street.*
+
+``cons(a, b)`` constructs a pair, and ``car(pair)`` and ``cdr(pair)`` **returns the first and last element of that pair**. For example, ``car(cons(3, 4))`` returns ``3``, and ``cdr(cons(3, 4))`` returns ``4``.
+
+Given this implementation of cons:
+
+::
+
+    def cons(a, b):
+        return lambda f: f(a, b)
+
+Implement ``car`` and ``cdr``.
+
+006 `XOR linked list <https://github.com/klememi/DailyCodingProblem/blob/master/problems/006_XORLinkedList.swift>`_
+----------------------------------------------------------------------------------------------------------------------------
+
+*This problem was asked by Google.*
+
+An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is a XOR of the next node and the previous node. **Implement a XOR linked list**; it has an ``add(element)`` which adds the element to the end, and a ``get(index)`` which returns the node at index.
