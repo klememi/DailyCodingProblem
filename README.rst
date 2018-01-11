@@ -16,7 +16,7 @@ For example, if the stack is ``[1, 2, 3, 4, 5]``, it should become ``[1, 5, 2, 4
 If the stack is ``[1, 2, 3, 4]``, it should become ``[1, 4, 2, 3]``.
 
 002 `Product of other items in array <https://github.com/klememi/DailyCodingProblem/blob/master/problems/002_LinearArrayProduct.swift>`_
--------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *This problem was asked by Uber.*
 
@@ -25,14 +25,14 @@ Given an array of integers, return a new array such that each element at index `
 For example, if our input was ``[1, 2, 3, 4, 5]``, the expected output would be ``[120, 60, 40, 30, 24]``. If our input was ``[3, 2, 1]``, the expected output would be ``[2, 3, 6]``.
 
 003 `Serializing and deserializing a tree <https://github.com/klememi/DailyCodingProblem/blob/master/problems/003_SerializingTree.swift>`_
----------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *This problem was asked by Google.*
 
 Given the root to a binary tree, implement ``serialize(root)``, which **serializes the tree into a string**, and ``deserialize(s)``, which **deserializes the string back into the tree**.
 
 004 `Smallest missing positive number in an array <https://github.com/klememi/DailyCodingProblem/blob/master/problems/004_SmallestPositiveNumber.swift>`_
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *This problem was asked by Stripe.*
 
@@ -43,7 +43,7 @@ For example, the input ``[3, 4, -1, 1]`` should give ``2``. The input ``[1, 2, 0
 You can modify the input array in-place.
 
 005 `Return lambda arguments <https://github.com/klememi/DailyCodingProblem/blob/master/problems/005_ReturnLambdaArguments.swift>`_
-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *This problem was asked by Jane Street.*
 
@@ -59,8 +59,17 @@ Given this implementation of cons:
 Implement ``car`` and ``cdr``.
 
 006 `XOR linked list <https://github.com/klememi/DailyCodingProblem/blob/master/problems/006_XORLinkedList.swift>`_
-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *This problem was asked by Google.*
 
-An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is a XOR of the next node and the previous node. **Implement a XOR linked list**; it has an ``add(element)`` which adds the element to the end, and a ``get(index)`` which returns the node at index.
+An XOR linked list is a more memory efficient doubly linked list. **Instead of each node holding next and prev fields, it holds a field named both**, which is a XOR of the next node and the previous node. **Implement a XOR linked list**; it has an ``add(element)`` which adds the element to the end, and a ``get(index)`` which returns the node at index.
+
+007 `Number of different encodings <https://github.com/klememi/DailyCodingProblem/blob/master/problems/007_Encoding.swift>`_
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*This problem was asked by Facebook.*
+
+Given the mapping ``a = 1, b = 2, ... z = 26``, and an encoded message, **count the number of ways it can be decoded.**
+
+For example, the message ``'111'`` would give ``3``, since it could be decoded as ``'aaa'``, ``'ka'``, and ``'ak'``.
