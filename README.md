@@ -445,9 +445,37 @@ For example, a sorted list has zero inversions. The array `[2, 4, 1, 3, 5]` has 
 
 Using a function `rand5()` that returns an integer from 1 to 5 (inclusive) with uniform probability, **implement a function** `rand7()` **that returns an integer from 1 to 7 (inclusive)**.
 
-## 046 [Lomgest palindromic contiguous substring]() - TODO
+## 046 [Longest palindromic contiguous substring]() - TODO
 > This problem was asked by Amazon
 
 **Given a string, find the longest palindromic contiguous substring.** If there are more than one with the maximum length, return any one.
 
 For example, the longest palindromic substring of `aabcdcb` is `bcdcb`. The longest palindromic substring of `bananas` is `anana`.
+
+## 047 [Maximum profit]() - TODO
+> This problem was asked by Facebook
+
+Given a array of numbers representing the stock prices of a company in chronological order, **write a function that calculates the maximum profit you could have made from buying and selling that stock once.** *You must buy before you can sell it.*
+
+For example, given `[9, 11, 8, 5, 7, 10]`, you should return `5`, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+## 048 [Binary tree reconstruction]() - TODO
+> This problem was asked by Google
+
+Given pre-order and in-order traversals of a binary tree, **write a function to reconstruct the tree.**
+
+For example, given the following preorder traversal:
+
+    [a, b, d, e, c, f, g]
+
+And the following inorder traversal:
+
+    [d, b, e, a, f, c, g]
+
+You should return the following tree:
+
+       a
+      / \
+     b   c
+    / \ / \
+    d e f  g
