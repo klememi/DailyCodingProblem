@@ -984,7 +984,7 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 
 ## 097[]() - TODO
-> This problem was asked by Coursera.
+> This problem was asked by Coursera
 
 Given a 2D board of characters and a word, find if the word exists in the grid.
 
@@ -1000,7 +1000,7 @@ For example, given the following board:
 exists(board, "ABCCED") returns true, exists(board, "SEE") returns true, exists(board, "ABCB") returns false.
 
 ## 098[]() - TODO
-> This problem was asked by Microsoft.
+> This problem was asked by Microsoft
 
 Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
 
@@ -1009,7 +1009,7 @@ For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element seque
 Your algorithm should run in O(n) complexity.
 
 ## 099[]() - TODO
-> This problem was asked by Google.
+> This problem was asked by Google
 
 You are in an infinite 2D grid where you can move in any of the 8 directions:
 
@@ -1031,7 +1031,7 @@ Output: 2
 It takes 1 step to move from (0, 0) to (1, 1). It takes one more step to move from (1, 1) to (1, 2).
 
 ## 100[]() - TODO
-> This problem was asked by Alibaba.
+> This problem was asked by Alibaba
 
 Given an even number (greater than 2), return two prime numbers whose sum will be equal to the given number.
 
@@ -1049,8 +1049,100 @@ If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= 
 If a < c OR a==c AND b < d.
 
 ## 101[]() - TODO
-> This problem was asked by Lyft.
+> This problem was asked by Lyft
 
 Given a list of integers and a number K, return which contiguous elements of the list sum to K.
 
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4].
+
+## 102[]() - TODO
+> This problem was asked by Square
+
+Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+
+For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+
+If there is no substring containing all the characters in the set, return null.
+
+## 103[]() - TODO
+> This problem was asked by Google
+
+Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
+
+For example, 1 -> 4 -> 3 -> 4 -> 1 returns true while 1 -> 4 returns false.
+
+## 104[]() - TODO
+> This problem was asked by Facebook
+
+Given a function f, and N return a debounced f of N milliseconds.
+
+That is, as long as the debounced f continues to be invoked, f itself will not be called for N milliseconds.
+
+## 105[]() - TODO
+> This problem was asked by Pinterest
+
+Given an integer list where each number represents the number of hops you can make, determine whether you can reach to the last index starting at index 0.
+
+For example, [2, 0, 1, 0] returns true while [1, 1, 0, 1] returns false.
+
+## 106[]() - TODO
+> This problem was asked by Microsoft
+
+Print the nodes in a binary tree level-wise. For example, the following should print 1, 2, 3, 4, 5.
+
+      1
+     / \
+    2   3
+       / \
+      4   5
+
+## 107[]() - TODO
+> This problem was asked by Google
+
+Given two strings A and B, return whether or not A can be shifted some number of times to get B.
+
+For example, if A is abcde and B is cdeab, return true. If A is abc and B is acb, return false.
+
+## 108[]() - TODO
+> This problem was asked by Cisco
+
+Given an unsigned 8-bit integer, swap its even and odd bits. The 1st and 2nd bit should be swapped, the 3rd and 4th bit should be swapped, and so on.
+
+For example, 10101010 should be 01010101.
+
+Bonus: Can you do this in one line?
+
+## 109[]() - TODO
+> This problem was asked by Facebook
+
+Given a binary tree, return all paths from the root to leaves.
+
+For example, given the tree
+
+   1
+  / \
+ 2   3
+    / \
+   4   5
+it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
+
+## 110[]() - TODO
+> This problem was asked by Google
+
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+## 111[]() - TODO
+> This problem was asked by Twitter
+
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
+
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
+
+## 112[]() - TODO
+> This problem was asked by Google
+
+Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+
+Follow-up: given a mutable string representation, can you perform this operation in-place?
