@@ -1227,4 +1227,198 @@ And here are examples of non-numbers:
 "-"
 
 ## 123[]() - TODO
-> 
+> This problem was asked by Microsoft
+
+You have 100 fair coins and you flip them all at the same time. Any that come up tails you set aside. The ones that come up heads you flip again. How many rounds do you expect to play before only one coin remains?
+
+Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains.
+
+## 124[]() - TODO
+> This problem was asked by Google
+
+Given the root of a binary search tree, and a target K, return two nodes in the tree whose sum equals K.
+
+For example, given the following tree and K of 20
+
+    10
+   /   \
+ 5      15
+       /  \
+     11    15
+Return the nodes 5 and 15.
+
+## 125[]() - TODO
+> This problem was asked by Facebook
+
+Write a function that rotates a list by k elements. For example, [1, 2, 3, 4, 5, 6] rotated by two becomes [3, 4, 5, 6, 1, 2]. Try solving this without creating a copy of the list. How many swap or move operations do you need?
+
+## 126[]() - TODO
+> This problem was asked by Microsoft
+
+Let's represent an integer in a linked list format by having each node represent a digit in the number. The nodes make up the number in reversed order.
+
+For example, the following linked list:
+
+1 -> 2 -> 3 -> 4 -> 5
+is the number 54321.
+
+Given two linked lists in this format, return their sum in the same linked list format.
+
+For example, given
+
+9 -> 9
+5 -> 2
+return 124 (99 + 25) as:
+
+4 -> 2 -> 1
+
+## 127[]() - TODO
+
+The Tower of Hanoi is a puzzle game with three rods and n disks, each a different size.
+
+All the disks start off on the first rod in a stack. They are ordered by size, with the largest disk on the bottom and the smallest one at the top.
+
+The goal of this puzzle is to move all the disks from the first rod to the last rod while following these rules:
+
+You can only move one disk at a time.
+A move consists of taking the uppermost disk from one of the stacks and placing it on top of another stack.
+You cannot place a larger disk on top of a smaller disk.
+Write a function that prints out all the steps necessary to complete the Tower of Hanoi. You should assume that the rods are numbered, with the first rod being 1, the second (auxiliary) rod being 2, and the last (goal) rod being 3.
+
+For example, with n = 3, we can do this in 7 moves:
+
+Move 1 to 3
+Move 1 to 2
+Move 3 to 2
+Move 1 to 3
+Move 2 to 1
+Move 2 to 3
+Move 1 to 3
+
+## 128[]() - TODO
+
+Given a real number n, find the square root of n. For example, given n = 9, return 3.
+
+## 129[]() - TODO
+> This problem was asked by Facebook
+
+Given an array of numbers representing the stock prices of a company in chronological order and an integer k, return the maximum profit you can make from k buys and sells. You must buy the stock before you can sell it, and you must sell the stock before you can buy it again.
+
+For example, given k = 2 and the array [5, 2, 4, 0, 1], you should return 3.
+
+## 130[]() - TODO
+> This question was asked by Snapchat
+
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+
+## 131[]() - TODO
+> This question was asked by Riot Games
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+record(timestamp): records a hit that happened at timestamp
+total(): returns the total number of hits recorded
+range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
+Follow-up: What if our system has limited memory?
+
+## 132[]() - TODO
+> This problem was asked by Amazon
+
+Given a node in a binary tree, return the next bigger element, also known as the inorder successor.
+
+For example, the inorder successor of 22 is 30.
+
+   10
+  /  \
+ 5    30
+     /  \
+   22    35
+You can assume each node has a parent pointer.
+
+## 133[]() - TODO
+> This problem was asked by Facebook
+
+You have a large array with most of the elements as zero.
+
+Use a more space-efficient data structure, SparseArray, that implements the same interface:
+
+init(arr, size): initialize with the original large array and size.
+set(i, val): updates index at i with val.
+get(i): gets the value at index i.
+
+## 134[]() - TODO
+> This question was asked by Apple
+
+Given a binary tree, find a minimum path sum from root to a leaf.
+
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+
+## 135[]() - TODO
+> This question was asked by Google
+
+Given an N by M matrix consisting only of 1's and 0's, find the largest rectangle containing only 1's and return its area.
+
+For example, given the following matrix:
+
+[[1, 0, 0, 0],
+ [1, 0, 1, 1],
+ [1, 0, 1, 1],
+ [0, 1, 0, 0]]
+Return 4.
+
+## 136[]() - TODO
+> This problem was asked by Amazon
+
+Implement a bit array.
+
+A bit array is a space efficient array that holds a value of 1 or 0 at each index.
+
+init(size): initialize the array with size
+set(i, val): updates index at i with val where val is either 1 or 0.
+get(i): gets the value at index i.
+
+## 137[]() - TODO
+> This problem was asked by Google
+
+Find the minimum number of coins required to make n cents.
+
+You can use standard American denominations, that is, 1¢, 5¢, 10¢, and 25¢.
+
+For example, given n = 16, return 3 since we can make it with a 10¢, a 5¢, and a 1¢.
+
+## 138[]() - TODO
+> This problem was asked by Google.
+
+Given an iterator with methods next() and hasNext(), create a wrapper iterator, PeekableInterface, which also implements peek(). peek shows the next element that would be returned on next().
+
+Here is the interface:
+
+class PeekableInterface(object):
+    def __init__(self, iterator):
+        pass
+
+    def peek(self):
+        pass
+
+    def next(self):
+        pass
+
+    def hasNext(self):
+        pass
+
+## 139[]() - TODO
+> This problem was asked by Facebook
+
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
+For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
+
+Follow-up: Can you do this in linear time and constant space?
