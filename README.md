@@ -1,6 +1,6 @@
 # Daily Coding Problem
 
-Here is my approach for simple coding challenges I bumped into at [dailycodingproblem.com](http://dailycodingproblem.com). I am using mainly **Swift** (sometimes there might be also solution in other language - *Python*, *Haskell*, *C++*) as it's my primary language however problems are of course language-independent. Feel free to create a new issue thread for your questions or suggestions.
+Here is my approach for simple coding challenges I bumped into at [dailycodingproblem.com](http://dailycodingproblem.com). I am using **Swift**, **Python**, **Haskell** or *C++* however problems are of course language-independent. Feel free to create a new issue thread for your questions or suggestions.
 
 ### [Problems 001 - 050](problems/001_050.md)
 
