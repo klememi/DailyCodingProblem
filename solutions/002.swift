@@ -27,4 +27,4 @@ func function(_ array: [Int]) -> [Int] {
 }
 
 var array = [1, 2, 3, 4, 5]
-print(function(array)) // [120, 60, 40, 30, 24]
+assert ( function(array) == [120, 60, 40, 30 ,24] )
