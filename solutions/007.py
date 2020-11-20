@@ -14,11 +14,15 @@ def count(msg):
         return 1
     elif int(msg[:2]) > 9 and int(msg[:2]) < 27:
         return count(msg[1:]) + count(msg[2:])
+    elif int(msg[0]) == 0:
+        return 0
     else:
         return count(msg[1:])
 
 def main():
-    assert( f('111') == 3 )
+    while True:
+        value = str(input('encoded message: '))
+        print(count(value))
 
 if __name__ == '__main__':
     main()
